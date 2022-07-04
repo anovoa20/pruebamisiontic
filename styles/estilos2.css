@@ -48,3 +48,19 @@ ul {
     box-shadow: 1px 1px rgb(128, 126, 0);
     color: white;
 }
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;    
+}
+
+.buscar:focus-within {
+    border: 1px solid blue;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
