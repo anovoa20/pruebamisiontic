@@ -14,30 +14,33 @@ ul {
     padding: 10px;
 }
 
-.mainButton {
-    background-color: blueviolet;    
-    color: white;
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: blueviolet;
+    color: white;
 }
 
 .mainButton:hover {
-    cursor: pointer;
     box-shadow: 1px 1px green;
-    transform: scale(1.1);
+    color: white;
 }
 
 .secondaryButton {
-    background-color: rgb(43, 107, 226);    
+    background-color: rgb(43, 107, 226);
     color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
 }
 
 .secondaryButton:hover {
-    cursor: pointer;
     box-shadow: 1px 1px rgb(128, 126, 0);
-    transform: scale(1.1);
+    color: white;
 }
