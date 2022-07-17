@@ -29,7 +29,7 @@ function App() {
                 </li>
                 <li class="breedCard">
                     <div class="contenedorImagen">
-                        <img src="./media/rhodesian.jpg" alt="Rhodeesian">
+                        <img src="./media/rhodesian.jpg" alt="Rhodeesian"/>
                     </div>
                     <span class="breedTitle">Rhodeesian</span>
                 </li>
